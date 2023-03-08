@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: 83d7464c65acd3047b531691ace821dd
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CORDES GLOBO
+    second: {fileID: 2100000, guid: 2008697d1cdef5d4091c0b0ac713f4d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CORDES GLOBO 2
+    second: {fileID: 2100000, guid: 125fb6ea43b16524fb38e63b42681ffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FUSSTA GLOBO
+    second: {fileID: 2100000, guid: 7df1abd75c0005249b0a9f0820899987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FUSTA TORRES
+    second: {fileID: 2100000, guid: aaaa94b660e88934da2869dd1d222927, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: a4393dd0475491042a79afe1ae6f5f95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: bd97950daeeca0c4eaf226b5393c9739, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: f8d9c2829c2619a459f75985e6430a2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 5cbbcee6ac6bb114581c54d036f28120, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 937ce2175a32ede4483c51970e849f3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: c968b0de090ffa546a0d1414e63c2b11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 1a80fb77645712041821c7fb2c936596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: adead2b06ab961d498e5e199a071778b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: b329cbb1456081f4fba4f17946b0aa3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TOLDOS
+    second: {fileID: 2100000, guid: fa57affd1b50e744f94a8866c001b612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torre petita blanca.001
+    second: {fileID: 2100000, guid: 1810ee69d97866b47bbd7d67e66d2e73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aigua
+    second: {fileID: 2100000, guid: 2d304b199478e7642a2bbc1c494e160b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anelles globo
+    second: {fileID: 2100000, guid: 6b271d51b08a6b14f8ce7af8b9b7932d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banc
+    second: {fileID: 2100000, guid: 94419fe882759df4c99460e6e1044921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bandera blava
+    second: {fileID: 2100000, guid: 5771254fb93ec5842894df42d0706ebc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bandera blava.001
+    second: {fileID: 2100000, guid: 02b7c6504101ee248a680e2d7a9be352, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bandera blava_
+    second: {fileID: 2100000, guid: d682b33818a9ff943bb688ccdcbec219, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bandera vermella
+    second: {fileID: 2100000, guid: 1a404d915730c8940badddb2845f33b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bandera vermella.001
+    second: {fileID: 2100000, guid: 3f7919a794612dc4a83976fd26a1854b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blau.001
+    second: {fileID: 2100000, guid: 29d63076216697b4e845b664d12a8213, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bombes cano
+    second: {fileID: 2100000, guid: 49a4a22d9448cd64fae609ed8ca90695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cadenes
+    second: {fileID: 2100000, guid: e84b35743ab5a9c4ea81cff07af86b92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cadires i taula
+    second: {fileID: 2100000, guid: d37bfaf8a10a1da47bf764a439917bfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cano
+    second: {fileID: 2100000, guid: 6dd2cb0ca258a7a488d1efb47fe3b1c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cantos marro fosc
+    second: {fileID: 2100000, guid: 0263c76a95ef4d4408e342d869f26162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cordes globo 3
+    second: {fileID: 2100000, guid: a3a766297ab56e14c8561f2b050a86f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cordes globo 4
+    second: {fileID: 2100000, guid: 4e416eac9bc887042b445800b3de76e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: corona
+    second: {fileID: 2100000, guid: efb61fa54729b404a84ca4bd7377088e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: corona torre petita
+    second: {fileID: 2100000, guid: aedb4ae68e947b54ba8e92ef49f5f1f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fusta
+    second: {fileID: 2100000, guid: 712cbacb42ddc9a4d8f920630399fd07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gris fosc
+    second: {fileID: 2100000, guid: 48a584cc3801f4e409cef0bc2caa5a17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grisclar
+    second: {fileID: 2100000, guid: 0b28705ddf8e5ab4aa7ac6b29fba1e95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: herba
+    second: {fileID: 2100000, guid: 0badb6f36a5d7884c8559c0f33a0d832, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: linies cano
+    second: {fileID: 2100000, guid: c725dc229c4a9f641b475af5fcf85079, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metall
+    second: {fileID: 2100000, guid: 363eb1c6d8fd48046818dd5a89eec2ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: or
+    second: {fileID: 2100000, guid: ae9d3ea5fd279344da8a02c9c8492500, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: or.001
+    second: {fileID: 2100000, guid: 51e5bed6aa661764c9b42409c4a75a54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palanca
+    second: {fileID: 2100000, guid: 141078433e4d0664da21bbb17537a1e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pals banderes
+    second: {fileID: 2100000, guid: 4b28e661cce760544b651b201009748c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: parets grades
+    second: {fileID: 2100000, guid: 334378d52879bbc45bbad40f674ee5e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pedra terra gris
+    second: {fileID: 2100000, guid: fe4b9bf866fffe443833053f3976216c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pedres
+    second: {fileID: 2100000, guid: ddb4fd57cb40863419fbf704a816cdb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pont
+    second: {fileID: 2100000, guid: 6bbb28d87c14726449be1bc76e7573e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: portes marrons
+    second: {fileID: 2100000, guid: 329ae8d524508814ebc338f570955404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potes bancs
+    second: {fileID: 2100000, guid: cdb9a2aab81451b45a477a3e2457fab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sacs
+    second: {fileID: 2100000, guid: 2e9b8da24193abe4eb109f1a3f1f7b72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suport torres
+    second: {fileID: 2100000, guid: a9809ff8fb22a4c4583814209996f5b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: terra
+    second: {fileID: 2100000, guid: ac1fad9a39c7df34d8881e8bbefb8998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: terra torre banderes
+    second: {fileID: 2100000, guid: 48fed96fba33b054094f6ee4c7debc92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: terra torres
+    second: {fileID: 2100000, guid: 4d9a165d82eec514f8e2f4afb1723740, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: terra torresgrans
+    second: {fileID: 2100000, guid: befbd883a0d0ee8459ce0e68cac13951, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teulada blau
+    second: {fileID: 2100000, guid: 0048ba42033dec049a4358991a9f35b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teulada vermella
+    second: {fileID: 2100000, guid: 0d04a06943b75754e963aba9d730a88c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textura pal toldo
+    second: {fileID: 2100000, guid: 1f7efcf35c740e54f890863984133c6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toldos vermells
+    second: {fileID: 2100000, guid: 94251e7002bc7a244b6d53b08dc6da84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torre
+    second: {fileID: 2100000, guid: d028aef0a25a8094bb9c73666e81cb34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torre arquera
+    second: {fileID: 2100000, guid: 04972c3615dd4e94ebd11215ba5709f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torre blau
+    second: {fileID: 2100000, guid: 91b105a1020d99648ba0f8e5ea9e148f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torre gran
+    second: {fileID: 2100000, guid: ae454912f842a4e40b59796da5f25c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torre vermell
+    second: {fileID: 2100000, guid: 5712cdb63c94aa545a439d4348737478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torrepetita
+    second: {fileID: 2100000, guid: 71d1038673aed404f8aaab78a77516de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vermell
+    second: {fileID: 2100000, guid: 281008467147c5e45b612e9d89c27dc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vermell.001
+    second: {fileID: 2100000, guid: 05093123c28e3dc4c83be0f5cf835d57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidre
+    second: {fileID: 2100000, guid: 0f41fb10341c740428c04dda794f86e5, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
