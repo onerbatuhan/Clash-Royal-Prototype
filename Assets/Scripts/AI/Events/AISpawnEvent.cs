@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using AI.Manager;
 using AI.ScriptTable;
 using Game;
+using Photon.Pun;
 using Team.ScriptTable;
 using Teams.Manager;
 using UnityEditor;
@@ -11,7 +12,7 @@ using UnityEngine.AI;
 
 namespace AI.Events
 {
-    public class AISpawnEvent : MonoBehaviour
+    public class AISpawnEvent : MonoBehaviourPunCallbacks
     {
         
         public List<GameObject> itemPrefabs;
@@ -56,7 +57,7 @@ namespace AI.Events
 
             int selectedSpawnIndex = Random.Range(0, spawnPoints.Count);
 
-            GameObject newPlayer = Instantiate(itemPrefabs[selectedItemIndex], spawnPoints[selectedSpawnIndex].position, Quaternion.identity);
+            GameObject newPlayer = PhotonNetwork.Instantiate(itemPrefabs[selectedItemIndex].name, spawnPoints[selectedSpawnIndex].position, Quaternion.identity);
             newPlayer.GetComponent<Teams.Manager.Team>().teamData = spawnPlayerTeamData;
             TeamController.Instance.allPlayer.Add(newPlayer);
             newPlayer.GetComponent<NavMeshAgent>().enabled = true;

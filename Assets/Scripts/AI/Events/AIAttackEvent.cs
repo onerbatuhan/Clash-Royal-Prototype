@@ -2,6 +2,7 @@ using System;
 using AI.Manager;
 using Animation.AnimationManager;
 using Object;
+using Photon.Pun;
 using Tower.Manager;
 using UnityEngine;
 
@@ -40,6 +41,7 @@ namespace AI.Events
             }
         }
         
+       
         public void Attack() //Attack AnimationClip Event
         {
             if (currentTowerObject != null)
@@ -80,10 +82,13 @@ namespace AI.Events
         }
         private void VfxShow()
         {
-            GameObject vfx = vfxPool.GetPooledEffectObject();
-            vfx.SetActive(true);
-            vfx.transform.position = transform.position;
-            vfx.transform.rotation = transform.rotation;
+            //PhotonPun'da objectPool konusuna gelince açarız. Şimdilik kapalı dursun. Ama masterClient'ın objectPool objelerini klonlayacağını unutma. Çünkü, tüm client'lar objectPool oluşturursa server kapasitesi şişer.
+            //Sadece odayı kuran client(masterClient) objectPool yapacak, diğer clientlar da o objectPool'a erişecek.
+            
+            // GameObject vfx = vfxPool.GetPooledEffectObject();
+            // vfx.SetActive(true);
+            // vfx.transform.position = transform.position;
+            // vfx.transform.rotation = transform.rotation;
         }
         
     }

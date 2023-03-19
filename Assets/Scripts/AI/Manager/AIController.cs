@@ -1,6 +1,7 @@
 using System;
 using AI.Events;
 using AI.ScriptTable;
+using Photon.Pun;
 using Teams.Manager;
 using UnityEngine;
 using UnityEngine.AI;
@@ -106,7 +107,7 @@ namespace AI.Manager
 
         private void HealthBarAddSpriteObject()
         {
-            GameObject healthBarObjectSprite = Instantiate(aiData.healthBarObjectSprite,transform.position , aiData.healthBarObjectSprite.transform.rotation);
+            GameObject healthBarObjectSprite = PhotonNetwork.Instantiate(aiData.healthBarObjectSprite.name,transform.position , aiData.healthBarObjectSprite.transform.rotation);
             healthBarObjectSprite.GetComponent<AIHealtBarTarget>().targetObject = gameObject.transform;
 
         }

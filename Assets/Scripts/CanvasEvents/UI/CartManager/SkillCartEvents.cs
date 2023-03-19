@@ -3,6 +3,7 @@ using AI.Manager;
 using AI.ScriptTable;
 using CanvasEvents.UI.StaminaManager;
 using Object;
+using Photon.Pun;
 using Player;
 using Teams.Manager;
 using UnityEngine;
@@ -11,7 +12,7 @@ using UnityEngine.EventSystems;
 
 namespace CanvasEvents.UI.CartManager
 {
-    public class SkillCartEvents : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+    public class SkillCartEvents : MonoBehaviourPunCallbacks, IPointerDownHandler, IPointerUpHandler
     {
    
    
@@ -95,7 +96,8 @@ namespace CanvasEvents.UI.CartManager
             if (StaminaController.Instance.staminaCount < aiData.stamina) return;
             StaminaController.Instance.StaminaUse(aiData);
             _prefab = aiData.characterObject;
-            _clone = Instantiate(_prefab);
+            //Transform zero (Simdilik böyle, sonra düzeltiriz.)
+            _clone = PhotonNetwork.Instantiate(_prefab.name,Vector3.zero, Quaternion.identity);
             TeamController.Instance.allPlayer.Add(_clone);
 
         }
@@ -112,9 +114,12 @@ namespace CanvasEvents.UI.CartManager
                     if (aiPlayer.GetComponent<AIController>())
                     {
                         aiPlayer.GetComponent<AIController>().playerHealth += aiData.supportHealth;
-                          GameObject obj = _vfx.GetPooledEffectObject();
-                          obj.transform.localPosition = aiPlayer.transform.localPosition;
-                          obj.transform.SetParent(aiPlayer.transform);
+                        
+                        //Effectler MasterClient'a bağlandığında burayı güncellemek üzere kapattık.
+                        
+                          // GameObject obj = _vfx.GetPooledEffectObject();
+                          // obj.transform.localPosition = aiPlayer.transform.localPosition;
+                          // obj.transform.SetParent(aiPlayer.transform);
                           
 
                     }

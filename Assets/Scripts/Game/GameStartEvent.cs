@@ -15,6 +15,7 @@ namespace Game
         public GameObject updatePopUpCanvas;
         public GameObject startCanvas;
         public bool isGamePlay;
+        public bool canSpawnBot;
         private void Start()
         {
             spanEvent.enabled = false;
@@ -27,7 +28,10 @@ namespace Game
         {
             isGamePlay = true;
             startCanvas.SetActive(false);
-            spanEvent.enabled = true;
+            if (canSpawnBot)
+            {
+                spanEvent.enabled = true; 
+            }
             foreach (var currentObject in openObjectCanvasList)
             {
                 currentObject.gameObject.SetActive(true);

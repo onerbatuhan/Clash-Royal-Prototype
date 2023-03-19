@@ -1,5 +1,6 @@
 using System;
 using AI.Manager;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,11 +19,12 @@ namespace AI.Events
             _targetObjectAIController = targetObject.GetComponent<AIController>();
         }
 
-        void LateUpdate()
+        void FixedUpdate()
         {
             if (_targetObjectAIController.isDead)
             {
-                Destroy(gameObject);
+                //Server'dan da silmeli.
+                PhotonNetwork.Destroy(gameObject);
             }
             else
             {
@@ -35,7 +37,7 @@ namespace AI.Events
 
         private void TargetObjectFollow()
         {
-            Vector3 position = transform.position;
+            
             Vector3 takipEdilecekPozisyon = new Vector3(targetObject.localPosition.x, targetObject.localPosition.y +4, targetObject.position.z);
             transform.position = takipEdilecekPozisyon;
         }
@@ -46,18 +48,12 @@ namespace AI.Events
             {
                 float healthUIValue = _targetObjectAIController.playerHealth / _targetObjectAIController.aiData.health;
                 _ımage.fillAmount = healthUIValue;
-                SpriteColorChange();
+                
             }
            
 
         }
 
-        private void SpriteColorChange()
-        {
-            
-          
-            
-            
-        }
+        
     }
 }
